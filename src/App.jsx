@@ -1,15 +1,17 @@
-import React from "react";
-import Header from "./components/Header";
-import Greeting from "./components/Greeting";
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   return (
     <div>
       <Header />
-      <Greeting />
-      <p>This is my first React program with a header component.</p>
+      <main>
+        {/* Main content goes here */}
+      </main>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
