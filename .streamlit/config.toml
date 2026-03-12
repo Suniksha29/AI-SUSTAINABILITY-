@@ -1,0 +1,12 @@
+[server]
+enableCORS = true
+port = 8501
+
+[browser]
+serverAddress = "localhost"
+
+[theme]
+primaryColor = "#4CAF50"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
